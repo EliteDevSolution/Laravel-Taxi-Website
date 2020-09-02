@@ -1,0 +1,119 @@
+.navbar-brand {
+    display: inline-table;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/*ul.nav.navbar-nav.navbar-right {
+    margin-top: 15px;
+}*/
+
+ul.nav.navbar-nav.navbar-right.step-two {
+    margin-right: 50px;
+}
+
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+    padding: 20px;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color:#225789;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #225789;
+    background-color: transparent;
+}
+
+
+img.img-responsive.logo-img {
+    width: 50px;
+}
+
+ul.nav.navbar-nav.navbar-right.step-two li a {
+    font-size: 16px;
+}
+
+ul.nav.navbar-nav.navbar-right.step-one.hidden-sm.hidden-xs li a {
+    font-size: 16px;
+}
+
+a.resgister {
+    background-color: #ecf9ff;
+    border-radius: 5px;
+}
+
+
+.your-class img {
+    width: 100%;
+    display: block;
+    height: 450px;
+    object-fit: cover;
+    overflow-y: hidden;
+    border-radius: 3px;
+}
+
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    border: 1px solid transparent;
+}
+
+ul.nav.navbar-nav.navbar-right.step-one {
+    margin-top: 15px;
+}
+
+ul.nav.navbar-nav.navbar-right.step-two {
+    margin-top: 15px;
+}
+
+.your-class{
+    overflow: hidden;
+
+}
+
+
+.your-class .slick-dots li button:before{
+    font-size: 35px !important;
+}
+
+.your-class .slick-dots{
+    bottom: 18px !important;
+}
+
+.title-conent {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.autoplay img{
+    width: 100%;
+    padding: 20PX;
+    height: 300PX;
+
+}
+
+
+.sticky{
+    position: fixed;
+    top: 0;
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    z-index: 999;
+    border-radius: 0px;
+   margin-top: 0px;
+   /*padding-top: 0px;*/
+}

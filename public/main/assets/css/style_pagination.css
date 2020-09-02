@@ -1,0 +1,64 @@
+.pagination{
+        white-space: nowrap;
+        text-align: right;
+        display: inline-block;
+        padding-left: 0;
+}
+#table-2_info,#table-2_paginate{
+    display: none;
+}
+.pagination li {
+    display: inline;
+}
+.pagination li span,.pagination li a {
+    position: relative;
+    float: left;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    color: #818a91;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.pagination li.active span {
+    background-color: #3e70c9;
+    border-color: #3e70c9;
+    color: white;
+}
+.pagination_cover{
+    text-align: right;
+}
+.page_info{
+    margin-top: 18px;
+}
+
+.showcal{
+    color:green;margin-top:8px;position: absolute;   
+}
+
+.estimate_amount{
+    font-size: 22px;
+}
+
+.datemenu span {
+    margin: 15px 0 0;
+    padding: 0px;
+    float: left;
+    width: 100%;
+}
+.datemenu span a {
+    margin: 0 15px 0 0;
+    padding: 0 15px 0 0;
+    float: left;
+    color: #3e70c9 !important;
+    font-size: 15px;
+    cursor: pointer;
+    background: url('../../../line.jpg') no-repeat right 3px;
+}
+.datemenu {
+    margin: 0px;
+    margin-bottom: 21px;
+    padding: 0px;
+    float: left;
+    width: 100%;
+}    
